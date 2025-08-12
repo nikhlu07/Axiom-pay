@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Axiom Pay Logo](https://via.placeholder.com/400x120/4F46E5/FFFFFF?text=AXIOM+PAY)
+![Axiom Pay Logo](frontend/public/axiom.svg)
 
 **The Future of Subscription Payments on Hedera**
 
@@ -10,8 +10,6 @@
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
-[🎯 Live Demo](https://axiom-pay-demo.vercel.app) • [📖 Documentation](https://docs.axiom-pay.com) • [🛠️ API Reference](https://api.axiom-pay.com/docs)
 
 </div>
 
@@ -116,8 +114,8 @@ graph TD
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/axiom-pay.git
-cd axiom-pay
+git clone https://github.com/nikhlu07/Axiom-pay.git
+cd Axiom-pay
 
 # 2. Install dependencies
 npm run install:all
@@ -260,10 +258,10 @@ LOG_LEVEL=info
 
 ```bash
 # Health Check
-curl https://api.axiom-pay.com/health
+curl http://localhost:3001/health
 
 # Create Test Subscription
-curl -X POST https://api.axiom-pay.com/api/subscribe \
+curl -X POST http://localhost:3001/api/subscribe \
   -H "Content-Type: application/json" \
   -d '{
     "userAccountId": "0.0.12345",
@@ -442,7 +440,7 @@ We welcome contributions from the community! Here's how to get started:
 ### 🛠️ Development Workflow
 
 1. **Fork** the repository
-2. **Clone** your fork: `git clone https://github.com/yourusername/axiom-pay.git`
+2. **Clone** your fork: `git clone https://github.com/nikhlu07/Axiom-pay.git`
 3. **Create** feature branch: `git checkout -b feature/amazing-feature`
 4. **Make** your changes
 5. **Test** thoroughly: `npm test`
@@ -466,18 +464,18 @@ We welcome contributions from the community! Here's how to get started:
 ### 🌐 Links & Resources
 
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/hedera)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/axiompay)
-[![Documentation](https://img.shields.io/badge/Docs-000000?style=for-the-badge&logo=gitbook&logoColor=white)](https://docs.axiom-pay.com)
-[![GitHub Issues](https://img.shields.io/badge/Issues-24292e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername/axiom-pay/issues)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nikhlu07/Axiom-pay)
+[![Documentation](https://img.shields.io/badge/Docs-000000?style=for-the-badge&logo=gitbook&logoColor=white)](#-quick-start)
+[![GitHub Issues](https://img.shields.io/badge/Issues-24292e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nikhlu07/Axiom-pay/issues)
 
 </div>
 
 ### 🆘 Getting Help
 
-- **🐛 Bug Reports**: [Create an issue](https://github.com/yourusername/axiom-pay/issues/new?template=bug_report.md)
-- **💡 Feature Requests**: [Submit an idea](https://github.com/yourusername/axiom-pay/issues/new?template=feature_request.md)
+- **🐛 Bug Reports**: [Create an issue](https://github.com/nikhlu07/Axiom-pay/issues/new)
+- **💡 Feature Requests**: [Submit an idea](https://github.com/nikhlu07/Axiom-pay/issues/new)
 - **❓ Questions**: Join our [Discord server](https://discord.gg/hedera)
-- **📖 Documentation**: Visit [our docs](https://docs.axiom-pay.com)
+- **📖 Documentation**: See the README sections below
 
 ---
 
